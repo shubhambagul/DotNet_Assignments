@@ -10,7 +10,7 @@ namespace DotNet_Assignments
     {
         static void Main()
         {
-            
+            int rem = 0;
             int sum = 0;
             while (true)
             {

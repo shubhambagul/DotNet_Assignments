@@ -10,6 +10,7 @@ namespace Access_Modifier_Demo
     {
         public string firstName;
         public string lastName;
+        public int mono;
         public void set(string firstName, string lastName)
         {
             this.firstName = firstName;
