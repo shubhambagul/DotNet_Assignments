@@ -8,10 +8,12 @@ namespace Extension_Methods
 {
     internal class Exesting_Extension
     {
-        public void Addition (int a, int b, int c)
+        public int a = 10, b = 20, c = 30;
+
+        public void Addition()
         {
             int sum = a + b + c;
-            Console.WriteLine ("Sum of three number = "+sum);
+            Console.WriteLine("Sum of three number = " + sum);
         }
     }
 }

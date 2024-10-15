@@ -8,10 +8,10 @@ namespace Extension_Methods
 {
     static class NewExtensionClass
     {
-        public static void Substraction (this Exesting_Extension o, int a, int b)
+        public static void Substraction(this Exesting_Extension o)
         {
-            int sub = a - b;
-            Console.WriteLine ("Substraction of two digit = "+sub);
+            int sub = o.a - o.b;
+            Console.WriteLine("Substraction of two digit = " + sub);
         }
         public static void Multiplication(this Exesting_Extension o, int a, int b)
         {
