@@ -16,6 +16,6 @@ namespace DotNet_Assignments
             Console.WriteLine($"Before increament value : {num}");
             IncreamentValue(ref num);
             Console.WriteLine($"After increament value : {num}");
-        } 
+        }  
     }
 }

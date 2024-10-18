@@ -19,7 +19,7 @@ namespace DotNet_Assignments
             string text;
             InitializeValues(out value, out text);
             Console.WriteLine(text);
-            Console.WriteLine(value);
+            Console.WriteLine(value); 
         }
     }
 }
