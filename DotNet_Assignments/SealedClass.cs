@@ -27,7 +27,7 @@ namespace DotNet_Assignments
             CalculateDerivedClass obj = new CalculateDerivedClass();
             int addition = obj.Add(10, 20);
             Console.WriteLine(addition);
-            int substraction = obj.Add(40, 20);
+            int substraction = obj.Sub(40, 20);
             Console.WriteLine(substraction);
 
         }
