@@ -13,7 +13,7 @@ namespace DotNet_Assignments
             number = 10;
             name = "hello";
         }
-        public static void Main()
+        public static void Main() 
         {
             int value;
             string text;
